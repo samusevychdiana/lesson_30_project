@@ -1,0 +1,96 @@
+:root {
+    --title-text: "Bilbo Swash Caps", cursive;
+    --primary-text: "Montserrat", sans-serif;
+    --info-text: "Roboto Slab", serif;
+    --primary-color: #FED136;
+    --text-color: #222222;
+    --info-color: #777777;
+}
+
+
+.logo {
+    display: flex;
+    font-family: var(--title-text);
+    color: var(--primary-color);
+    font-weight: normal;
+    margin-right: 300px;
+    align-self: center;
+    
+}
+
+nav{
+    align-self: center;
+    
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    
+    font-family: var(--primary-text);
+    
+}
+nav a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+header {
+    display: flex;
+    margin: 0 auto;
+    width: 933px;
+    padding: 55px;
+    height: 39px;
+}
+
+.title-one {
+    font-family: var(--primary-text);
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-list {
+    display: flex;
+    gap: 56px;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.info img {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+}
+
+.info h3 {
+    font-family: var(--primary-text);
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--text-color);
+}
+
+.info p {
+    font-family: var(--info-text);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--info-color);
+    max-width: 304px;
+}
+
