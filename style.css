@@ -5,6 +5,7 @@
     --primary-color: #FED136;
     --text-color: #222222;
     --info-color: #777777;
+    --contact-color: #FFFFFF;
 }
 
 
@@ -49,6 +50,7 @@ header {
     font-size: 40px;
     text-transform: uppercase;
     text-align: center;
+    margin-top: 110px;
 }
 
 .services {
@@ -92,5 +94,78 @@ header {
     font-size: 14px;
     color: var(--info-color);
     max-width: 304px;
+}
+
+.contact {
+    background-color: var(--text-color);
+    padding: 92px 230px 115px 230px;
+    margin-top: 120px;
+}
+
+.contact h2 {
+    font-family: var(--primary-text);
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--contact-color);
+}
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    margin-top: 100px;
+}
+
+.left, .right{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+input {
+    width: 455px;
+    height: 50px;
+    background-color: var(--contact-color);
+    border: 1px solid #CCCCCC;
+    color: #BBBBBB;
+    font-family: var(--primary-text);
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+textarea {
+    width: 455px;
+    height: 195px;
+    background-color: var(--contact-color);
+    border: 1px solid #CCCCCC;
+    color: #BBBBBB;
+    font-family: var(--primary-text);
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+button {
+    width: 242px;
+    height: 68px;
+    background-color: var(--primary-color);
+    font-family: var(--primary-text);
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: var(--contact-color);
+    cursor: pointer;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
 }
 
