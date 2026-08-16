@@ -1,7 +1,7 @@
 .logo {
   display: flex;
-  font-family: var(--title-text);
-  color: var(--primary-color);
+  font-family: "Bilbo Swash Caps", cursive;
+  color: #FED136;
   font-weight: normal;
   margin-right: 300px;
   align-self: center;
@@ -15,12 +15,12 @@ nav ul {
   display: flex;
   gap: 20px;
   list-style: none;
-  font-family: var(--primary-text);
+  font-family: "Montserrat", sans-serif;
 }
 
 nav a {
   text-decoration: none;
-  color: var(--primary-color);
+  color: #FED136;
 }
 
 header {
@@ -31,8 +31,82 @@ header {
   height: 39px;
 }
 
+.contact {
+  background-color: #222222;
+  padding: 92px 230px 115px 230px;
+  margin-top: 120px;
+}
+
+.contact h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  margin-top: 100px;
+}
+
+.left,
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+input {
+  width: 455px;
+  height: 50px;
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  color: #BBBBBB;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 20px;
+}
+
+textarea {
+  width: 455px;
+  height: 195px;
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  color: #BBBBBB;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+button {
+  width: 242px;
+  height: 68px;
+  background-color: #FED136;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
 .title-one {
-  font-family: var(--primary-text);
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
@@ -69,16 +143,16 @@ header {
 }
 
 .info h3 {
-  font-family: var(--primary-text);
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  color: var(--text-color);
+  color: #222222;
 }
 
 .info p {
-  font-family: var(--info-text);
+  font-family: "Roboto Slab", serif;
   font-weight: 400;
   font-size: 14px;
-  color: var(--info-color);
+  color: #777777;
   max-width: 304px;
 }

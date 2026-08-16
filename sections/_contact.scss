@@ -1,16 +1,18 @@
+@import "variables";
+
 .contact {
-    background-color: var(--text-color);
+    background-color: $text-color;
     padding: 92px 230px 115px 230px;
     margin-top: 120px;
 }
 
 .contact h2 {
-    font-family: var(--primary-text);
+    font-family: $primary-text;
     font-weight: 700;
-    font-size: 40px;
+    font-size: $main-size;
     text-transform: uppercase;
     text-align: center;
-    color: var(--contact-color);
+    color: $contact-color;
 }
 
 .contact-form {
@@ -30,12 +32,12 @@
 input {
     width: 455px;
     height: 50px;
-    background-color: var(--contact-color);
+    background-color: $contact-color;
     border: 1px solid #CCCCCC;
     color: #BBBBBB;
-    font-family: var(--primary-text);
+    font-family: $primary-text;
     font-weight: 700;
-    font-size: 14px;
+    font-size: $small-size;
     text-transform: uppercase;
     padding-left: 20px;
 }
@@ -43,12 +45,12 @@ input {
 textarea {
     width: 455px;
     height: 195px;
-    background-color: var(--contact-color);
+    background-color: $contact-color;
     border: 1px solid #CCCCCC;
     color: #BBBBBB;
-    font-family: var(--primary-text);
+    font-family: $primary-text;
     font-weight: 700;
-    font-size: 14px;
+    font-size: $small-size;
     text-transform: uppercase;
     padding-left: 20px;
     padding-top: 20px;
@@ -57,12 +59,12 @@ textarea {
 button {
     width: 242px;
     height: 68px;
-    background-color: var(--primary-color);
-    font-family: var(--primary-text);
+    background-color: $primary-color;
+    font-family: $primary-text;
     font-weight: 700;
-    font-size: 18px;
+    font-size: $text-size;
     text-transform: uppercase;
-    color: var(--contact-color);
+    color: $contact-color;
     cursor: pointer;
 }
 

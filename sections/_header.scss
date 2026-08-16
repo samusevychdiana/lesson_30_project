@@ -1,7 +1,9 @@
+@import "variables";
+
 .logo {
     display: flex;
-    font-family: var(--title-text);
-    color: var(--primary-color);
+    font-family: $title-text;
+    color: $primary-color;
     font-weight: normal;
     margin-right: 300px;
     align-self: center;
@@ -18,13 +20,13 @@ nav ul {
     gap: 20px;
     list-style: none;
 
-    font-family: var(--primary-text);
+    font-family: $primary-text;
 
 }
 
 nav a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: $primary-color;
 }
 
 header {

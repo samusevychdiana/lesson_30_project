@@ -1,7 +1,9 @@
+@import "variables";
+
 .title-one {
-    font-family: var(--primary-text);
+    font-family: $primary-text;
     font-weight: 700;
-    font-size: 40px;
+    font-size: $main-size;
     text-transform: uppercase;
     text-align: center;
     margin-top: 110px;
@@ -36,16 +38,16 @@
 }
 
 .info h3 {
-    font-family: var(--primary-text);
+    font-family: $primary-text;
     font-weight: 700;
-    font-size: 18px;
-    color: var(--text-color);
+    font-size: $text-size;
+    color: $text-color;
 }
 
 .info p {
-    font-family: var(--info-text);
+    font-family: $info-text;
     font-weight: 400;
-    font-size: 14px;
-    color: var(--info-color);
+    font-size: $small-size;
+    color: $info-color;
     max-width: 304px;
 }
